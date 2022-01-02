@@ -86,7 +86,7 @@ ifneq ($(filter y,$(CONFIG_FIRMWARE_INCLUDE_FRPC) $(CONFIG_FIRMWARE_INCLUDE_FRPS
 FRP_ENABLE=y
 endif
 
-ifneq ($(filter y,$(CONFIG_FIRMWARE_INCLUDE_WING) $(CONFIG_FIRMWARE_INCLUDE_TROJAN)),)
+ifneq ($(filter y,$(CONFIG_FIRMWARE_INCLUDE_TROJAN)),)
 TROJAN_ENABLE=y
 endif
 
@@ -217,6 +217,9 @@ dir_y						+= util-linux
 endif
 dir_y						+= mtd-utils
 endif
+
+dir_$(CONFIG_FIRMWARE_INCLUDE_ADGUARD)		+= adguardhome
+dir_$(CONFIG_FIRMWARE_INCLUDE_N2N)		+= n2n
 
 all:
 	for i in $(dir_y) ; do \
