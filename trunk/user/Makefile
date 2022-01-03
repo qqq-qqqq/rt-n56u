@@ -220,6 +220,7 @@ endif
 
 dir_$(CONFIG_FIRMWARE_INCLUDE_ADGUARD)		+= adguardhome
 dir_$(CONFIG_FIRMWARE_INCLUDE_N2N)		+= n2n
+dir_$(CONFIG_FIRMWARE_INCLUDE_MINIUPNPC)	+= miniupnpc
 
 all:
 	for i in $(dir_y) ; do \
