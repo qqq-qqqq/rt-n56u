@@ -32,4 +32,4 @@ clean:
 romfs:
 	$(ROMFSINST) -p +x $(THISDIR)/$(SRC_NAME)/build/upnpc-static /usr/bin/upnpc
 	$(ROMFSINST) -p +x $(THISDIR)/$(SRC_NAME)/build/listdevices /usr/bin/listdeivces
-	$(ROMFSINST) -p +x $(THISDIR)/$(SRC_NAME)/external_ip.sh /usr/bin/external_ip
+	$(ROMFSINST) -p +x $(THISDIR)/$(SRC_NAME)/external-ip.sh /usr/bin/external-ip
