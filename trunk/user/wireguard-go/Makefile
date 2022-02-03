@@ -1,5 +1,5 @@
 THISDIR := $(shell pwd)
-VERSION := 0.0.20201118
+VERSION := 0.0.20220117
 
 BIN_PREFIX := wireguard-go-mipsle
 
