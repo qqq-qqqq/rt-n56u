@@ -1,5 +1,5 @@
 THISDIR := $(shell pwd)
-VERSION := 0.106.3
+VERSION := 0.107.3
 BIN_NAME:= AdGuardHome_linux_mipsle_softfloat.tar.gz
 BIN_URL := https://github.com/AdguardTeam/AdGuardHome/releases/download/v$(VERSION)/$(BIN_NAME)
 
