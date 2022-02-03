@@ -43,5 +43,5 @@ clean:
 	rm -rf $(THISDIR)/$(SRC_NAME)
 
 romfs:
+	$(ROMFSINST) $(THISDIR)/install/usr/sbin/supernode /usr/sbin/supernode
 	$(ROMFSINST) $(THISDIR)/install/usr/sbin/edge /usr/sbin/edge
-	$(ROMFSINST) $(THISDIR)/install/usr/sbin/n2n-benchmark /usr/sbin/n2n-benchmark
